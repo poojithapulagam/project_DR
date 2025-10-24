@@ -8,5 +8,4 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 
 # Generate content
 response = model.generate_content("Explain AI in simple words")
-
 print(response.text)

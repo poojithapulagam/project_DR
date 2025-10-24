@@ -4,7 +4,6 @@ import json
 # Load existing JSON data
 with open('data.json', 'r') as file:
     data = json.load(file)
-
 # Get dynamic input from user
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
