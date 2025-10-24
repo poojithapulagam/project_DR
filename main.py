@@ -1,6 +1,5 @@
 import json
 #import gemini 
-
 # Load existing JSON data
 with open('data.json', 'r') as file:
     data = json.load(file)
